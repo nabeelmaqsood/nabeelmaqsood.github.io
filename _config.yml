@@ -246,27 +246,27 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: work in progress
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+      #path: ""
+      #type: portfolio
+    #values:
+      #layout: single
+     # author_profile: true
+     # share: true
+     # comment: true
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: conferences
     values:
-      layout: talk
+      layout: conferences
       author_profile: true
       share: true
 
