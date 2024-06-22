@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
----
+
 I am on the 2024/25 job market.
 ---
 A data-driven personal website
