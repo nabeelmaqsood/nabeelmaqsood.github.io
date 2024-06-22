@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Applied Macroeconomist | Causal Inference | Firms Performance Dynamics"
   location         : "Melbourne"
-  employer         : "[Deakin University](https://www.deakin.edu.au)"
-  uri              : # URL
+  employer         : "Deakin University"
+  uri              :  "https://www.deakin.edu.au"
   email            : "nabeelmaqsood.edu@gmail.com" 
 
   # Academic websites
