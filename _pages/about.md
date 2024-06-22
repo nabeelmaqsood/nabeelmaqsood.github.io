@@ -15,7 +15,6 @@ I am an Applied Macroeconomist, specializing in Development Economics, Labour Ec
 In addition, my other research focuses on Financial Intermediation, particularly the role of emerging financial technologies such as Peer-to-Peer lending, and their interaction with the traditional banking system.
 
 ## Education
-------
 
 &#127891; PhD in Economics, Expected 2024  
 <sub>Deakin University</sub>
