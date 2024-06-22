@@ -1,4 +1,4 @@
----
+bo---
 permalink: /
 title: "Welcome to my website."
 author_profile: true
@@ -17,11 +17,11 @@ In addition, my other research focuses on Financial Intermediation, particularly
 ## Education
 
 &#127891; PhD in Economics, Expected 2024  
-<sub>Deakin University</sub>
+<sub>Deakin University, Melbourne, Australia</sub>
 
 &#127891; MS Economics & Statistics, 2020  
-<sub>Korea University</sub>
+<sub>Korea University, Seoul, Rep. of South Korea</sub>
 
 &#127891; BS Economics, 2015  
-<sub>Quaid i Azam University</sub>
+<sub>Quaid i Azam University, Islamabad, Pakistan</sub>
 
