@@ -203,13 +203,13 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  "work in progress":
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  #portfolio:
+    #output: true
+    #permalink: /:collection/:path/
+  conferences:
     output: true
     permalink: /:collection/:path/
 
