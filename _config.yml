@@ -203,7 +203,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  "work in progress":
+  work in progress:
     output: true
     permalink: /:collection/:path/
   #portfolio:
