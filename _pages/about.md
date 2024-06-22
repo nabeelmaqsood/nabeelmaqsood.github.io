@@ -14,14 +14,16 @@ I am an Applied Macroeconomist, specializing in Development Economics, Labour Ec
 
 In addition, my other research focuses on Financial Intermediation, particularly the role of emerging financial technologies such as Peer-to-Peer lending, and their interaction with the traditional banking system.
 
+
 ## Education
 
-&#127891; PhD in Economics, Expected 2024  
+&#127891; PhD in Economics, Expected 2024<br>
 <sub>Deakin University, Melbourne, Australia</sub>
 
-&#127891; MS Economics & Statistics, 2020  
+&#127891; MS Economics & Statistics, 2020<br>
 <sub>Korea University, Seoul, Rep. of South Korea</sub>
 
-&#127891; BS Economics, 2015  
+&#127891; BS Economics, 2015<br>
 <sub>Quaid i Azam University, Islamabad, Pakistan</sub>
+
 
