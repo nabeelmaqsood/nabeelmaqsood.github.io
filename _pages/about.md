@@ -17,14 +17,13 @@ In addition, my other research focuses on Financial Intermediation, particularly
 ## Education
 
  &#127891; PhD in Economics, Expected 2024
- 
-    Deakin University
+  Deakin University
 
  &#127891; MS Economics & Statistics, 2020
  
-    Korea University
+  Korea University
   
  &#127891; BS Economics, 2015
  
-   Quaid i Azam University
+  Quaid i Azam University
 
