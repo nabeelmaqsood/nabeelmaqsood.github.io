@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "I am on the 2024/2025 Job Market"
 author_profile: true
 redirect_from: 
   - /about/
