@@ -1,13 +1,13 @@
 ---
 layout: archive
 title: "Work in Progress"
-------
 permalink: /Research/
 author_profile: true
 ---
 
 
 ### Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in India? (Job Market Paper)
+----
 
 #### Abstract
 <p style="font-size: 0.75em; color: grey; text-align: justify;">
@@ -16,6 +16,7 @@ This paper presents causal evidence of the effect of local courts on the formalâ
 
 
 ### Money Matters: Uncovering the Employment and Output Impacts of Demonetization in Indiaâ€™s Manufacturing Sector
+-----
 
 #### Abstract
 <p style="font-size: 0.75em; color: grey; text-align: justify;">
@@ -24,6 +25,7 @@ This paper presents causal evidence of the disruption in economic activity among
 
 
 ### CES Production Function and Extent of Resource Misallocation
+------
 
 #### Abstract
 <p style="font-size: 0.75em; color: grey; text-align: justify;">
