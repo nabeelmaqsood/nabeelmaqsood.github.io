@@ -46,9 +46,10 @@ In addition, my other research focuses on Financial Intermediation, particularly
 </form>
 
 -----
-<p style="font-size: 1em; color: #333; margin-top: 1.5em; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6;">
+<p style="font-size: 1em; color: #333; margin-top: 1.5em; font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6;">
   <strong style="font-weight: 600;">📞</strong> <span style="margin-left: 0.5em;">61452420994</span><br>
   <strong style="font-weight: 600;">📍</strong> <span style="margin-left: 0.5em;">28/60 Elgar Rd, Burwood, VIC 3125</span><br>
   <strong style="font-weight: 600;">🏢</strong> <span style="margin-left: 0.5em;">EA Building, Level 2, EA 2.40</span>
 </p>
+
 
