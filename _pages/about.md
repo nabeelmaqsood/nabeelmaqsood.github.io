@@ -27,3 +27,25 @@ In addition, my other research focuses on Financial Intermediation, particularly
 <sub>Quaid i Azam University, Islamabad, Pakistan</sub>
 
 
+---
+<h2 style="margin-top: 4em; text-align: left;">Contact</h2>
+---
+
+<form action="https://formspree.io/YOUREMAIL" method="POST" style="width: 80%; margin: 0 auto; text-align: left;">
+  <label for="name" style="display: block; font-size: 1em; color: #2c3e50;">Name</label>
+  <input type="text" name="name" id="name" style="width: 100%; padding: 0.5em; margin-bottom: 1em;">
+
+  <label for="email" style="display: block; font-size: 1em; color: #2c3e50;">Email</label>
+  <input type="email" name="_replyto" id="email" style="width: 100%; padding: 0.5em; margin-bottom: 1em;">
+
+  <label for="message" style="display: block; font-size: 1em; color: #2c3e50;">Message</label>
+  <textarea name="message" id="message" style="width: 100%; padding: 0.5em; margin-bottom: 1em;"></textarea>
+
+  <button type="submit" style="padding: 0.7em 2em; font-size: 1em; color: white; background-color: #1a73e8; border: none; cursor: pointer;">Send</button>
+</form>
+
+<p style="font-size: 1em; color: #2c3e50; margin-top: 2em;">
+  <strong>Phone:</strong> 61416956540<br>
+  <strong>Address:</strong> 28/60 Elgar Rd, Burwood, VIC 3125<br>
+  <strong>Office:</strong> EA Building, Level 2, EA 2.40
+</p>
