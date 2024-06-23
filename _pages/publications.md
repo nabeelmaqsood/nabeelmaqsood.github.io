@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Work in Progress"
+title: "Working Papers"
 permalink: /Research/
 author_profile: true
 ---
@@ -8,8 +8,8 @@ author_profile: true
 
 
 ### Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in India? (Job Market Paper)
-----
 #### Nabeel Maqsood (2024)
+----
 
 #### Abstract
 <div style="font-size: 0.75em; color: grey; text-align: justify; width: 80%; margin: 0 auto;">
@@ -17,8 +17,8 @@ This paper presents causal evidence of the effect of local courts on the formalâ
 </div>
 
 ### Money Matters: Uncovering the Employment and Output Impacts of Demonetization in Indiaâ€™s Manufacturing Sector
------
 #### Nabeel Maqsood, Prasad Bhattachyra, Yan Liang (2023)
+-----
 
 #### Abstract
 <div style="font-size: 0.75em; color: grey; text-align: justify; width: 80%; margin: 0 auto;">
@@ -32,6 +32,9 @@ This paper presents causal evidence of the disruption in economic activity among
 <div style="font-size: 0.75em; color: grey; text-align: justify; width: 80%; margin: 0 auto;">
 This paper re-examines the extent of resource misallocation in developing countries by relaxing the standard assumption of unitary elasticity of substitution (\(\sigma\)) between labor and capital. We investigate the premise that developing countries typically have a \(\sigma\) lower than one, indicating a complementary rather than substitutable relationship between production inputs such as capital and labor. This complementary relationship hinders firms' ability to switch to more efficient production factors. Using the Constant Elasticity of Substitution (CES) production function, we analyze firm-level data from developing regions in Latin America, Africa, and Southeast Asia. Our findings reveal that when the elasticity of substitution (\(\sigma\)) falls below 1, there is a substantial increase in capital misallocation. Conversely, as the \(\sigma\) value increases, the extent of capital misallocation decreases, becoming less pronounced with higher values of \(\sigma\). This occurs because a low \(\sigma\) increases the dispersion of capital-labor ratios, amplifying misallocation as the marginal product of capital declines rapidly with an increasing capital-labor ratio. Moreover, since developing countries are likely to have an input substitution elasticity below one, the extent of resource misallocation may be greater than previously estimated.
 </div>
+
+### Other work in Progress
+=====
 
 
 
