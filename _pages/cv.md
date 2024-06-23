@@ -9,7 +9,7 @@ redirect_from:
 
 <h2 style="margin-bottom: 4em; text-align: left;"></h2>
 
-<p style="text-align: center; font-size: 1em; color: #2c3e50;">
+<p style="text-align: left; font-size: 1em; color: #2c3e50;">
   A bit more about my academic & professional journey 
   <a href="assets/CV.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color: #1a73e8;">
     Download My CV Here
