@@ -17,7 +17,7 @@ redirect_from:
 </p>
 
 <p style="text-align: left; font-size: 1em; color: #2c3e50;">
-  A bit about my teaching philosophy and approach 
+  My teaching philosophy and approach 
   <a href="assets/My Teaching Statement.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color: #1a73e8;">
     Download My Teaching Statement Here
   </a>
