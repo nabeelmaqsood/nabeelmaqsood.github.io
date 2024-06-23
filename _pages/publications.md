@@ -9,6 +9,7 @@ author_profile: true
 
 ### Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in India? (Job Market Paper)
 ----
+#### Nabeel Maqsood (2024)
 
 #### Abstract
 <div style="font-size: 0.75em; color: grey; text-align: justify; width: 80%; margin: 0 auto;">
@@ -17,6 +18,7 @@ This paper presents causal evidence of the effect of local courts on the formalâ
 
 ### Money Matters: Uncovering the Employment and Output Impacts of Demonetization in Indiaâ€™s Manufacturing Sector
 -----
+#### Nabeel Maqsood, Prasad Bhattachyra, Yan Liang (2023)
 
 #### Abstract
 <div style="font-size: 0.75em; color: grey; text-align: justify; width: 80%; margin: 0 auto;">
