@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<h2 style="margin-bottom: 4em; text-align: center;"></h2>
+<h2 style="margin-bottom: 4em; text-align: left;"></h2>
 
 <p style="text-align: center; font-size: 1.1em; color: #2c3e50;">
   A bit more about my professional journey and qualifications 
