@@ -40,9 +40,9 @@ This paper re-examines the extent of resource misallocation in developing countr
 # Other Research Underway
 ---
 
-#### Bank Defaults and Emerging Peer-to-Peer Lending: Evidence from US Counties
+### Bank Defaults and Emerging Peer-to-Peer Lending: Evidence from US Counties
 
-#### Long-term Implications of Floods on Agricultural & Industrial Productivity: Evidence from Pakistan
+### Long-term Implications of Floods on Agricultural & Industrial Productivity: Evidence from Pakistan
 
 
 
