@@ -33,6 +33,9 @@ In addition, my other research focuses on Financial Intermediation, particularly
 <h2 style="margin-top: 4em; text-align: left;">Contact</h2>
 
 <form action="https://formspree.io/f/mpwaadvz" method="POST" style="width: 80%; margin: 0 auto; text-align: left; background: #f9f9f9; padding: 2em; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+  <label for="name" style="display: block; font-size: 1em; color: #2c3e50; margin-bottom: 0.5em;">Your name:</label>
+  <input type="text" name="name" id="name" style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 5px;">
+
   <label for="email" style="display: block; font-size: 1em; color: #2c3e50; margin-bottom: 0.5em;">Your email:</label>
   <input type="email" name="email" id="email" style="width: 100%; padding: 0.5em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 5px;">
 
