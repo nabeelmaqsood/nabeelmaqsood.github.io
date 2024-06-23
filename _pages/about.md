@@ -31,7 +31,9 @@ In addition, my other research focuses on Financial Intermediation, particularly
 <h2 style="margin-top: 4em; text-align: left;">Contact</h2>
 
 
-<form action="https://formspree.io/nabeelmaqsood.edu@gmail.com" method="POST" style="width: 80%; margin: 0 auto; text-align: left;">
+<h2 style="margin-top: 4em; text-align: left;">Contact</h2>
+
+<form action="https://formspree.io/f/mpwaadvz" method="POST" style="width: 80%; margin: 0 auto; text-align: left;">
   <label for="name" style="display: block; font-size: 1em; color: #2c3e50;">Name</label>
   <input type="text" name="name" id="name" style="width: 100%; padding: 0.5em; margin-bottom: 1em;">
 
