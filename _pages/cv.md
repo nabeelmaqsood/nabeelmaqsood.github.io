@@ -10,15 +10,15 @@ redirect_from:
 <h2 style="margin-bottom: 4em; text-align: left;"></h2>
 
 <p style="text-align: left; font-size: 1em; color: #2c3e50;">
-  If you're interested in learning more about my academic and professional journey, 
+  A bit more about my academic and professional journey, 
   <a href="/assets/CV.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color: #1a73e8;">
     you can download my CV here
   </a>.
 </p>
 
 <p style="text-align: left; font-size: 1em; color: #2c3e50;">
-  To understand my teaching philosophy and approach, 
+  My teaching philosophy and approach, 
   <a href="/assets/My Teaching Statement.pdf" target="_blank" style="font-weight: bold; text-decoration: none; color: #1a73e8;">
-    please read my teaching statement here
+    my teaching statement here
   </a>.
 </p>
