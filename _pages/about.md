@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: " "
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -47,19 +47,30 @@ redirect_from:
     margin-bottom: 2rem;
     color: #007aff;
   }
-  /* Paragraphs & Lists */
+  /* Paragraphs */
   p {
     font-size: 1.125rem;
     text-align: justify;
     margin-bottom: 1.5rem;
   }
-  ul {
-    padding-left: 1.5rem;
+  /* Custom Bullet List */
+  ul.custom-bullets {
+    list-style: none;
+    padding-left: 0;
     margin-bottom: 1.5rem;
   }
-  li {
+  ul.custom-bullets li {
+    position: relative;
+    padding-left: 1.5rem;
     margin-bottom: 0.75rem;
     font-size: 1.125rem;
+  }
+  ul.custom-bullets li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    color: #007aff;
+    font-weight: bold;
   }
   /* Education Section */
   .education {
@@ -77,7 +88,7 @@ redirect_from:
   /* Contact Form */
   .contact-form {
     background: #fff;
-    padding: 2rem;
+    padding: 1.5rem; /* Reduced padding for a more compact form */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.07);
     margin-top: 2rem;
@@ -139,7 +150,7 @@ redirect_from:
       font-size: 1rem;
     }
     .contact-form {
-      padding: 1.5rem;
+      padding: 1rem;
     }
     .contact-form input,
     .contact-form textarea {
@@ -167,7 +178,7 @@ redirect_from:
     My research focuses on three areas:
   </p>
   
-  <ul>
+  <ul class="custom-bullets">
     <li><strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.</li>
     <li><strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.</li>
     <li><strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.</li>
