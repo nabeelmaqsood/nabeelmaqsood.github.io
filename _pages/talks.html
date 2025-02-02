@@ -6,115 +6,155 @@ author_profile: true
 ---
 
 <style>
-  /* Container for the conference presentations */
+  /* Global container */
   .conference-container {
-    width: 80%;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 2em 1em;
   }
 
-  /* Section heading */
+  /* Page heading */
   .conference-heading {
     text-align: center;
-    margin-bottom: 2em;
-    font-size: 2em;
-    font-weight: bold;
-  }
-
-  /* Individual conference card */
-  .conference-card {
-    background-color: #fafafa;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 1em 1.5em;
+    font-size: 2.5em;
     margin-bottom: 1.5em;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-weight: 700;
+    letter-spacing: 0.05em;
   }
 
-  /* Presentation title */
+  /* Grid for cards */
+  .conference-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+  }
+
+  /* Card styling */
+  .conference-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .conference-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Title inside the card */
   .presentation-title {
-    font-weight: bold;
-    margin-bottom: 0.5em;
     display: block;
-    font-size: 1.1em;
+    font-weight: 600;
+    font-size: 1.15em;
+    margin-bottom: 0.75em;
+    color: #333;
   }
 
   /* Presentation details */
   .presentation-details {
     font-size: 0.95em;
-    line-height: 1.4;
+    line-height: 1.5;
+    color: #555;
   }
 
   /* Emphasize awards or extra notes */
   .presentation-details em {
-    color: #a00;
+    color: #b00;
+  }
+
+  /* Responsive text adjustments */
+  @media (max-width: 600px) {
+    .conference-heading {
+      font-size: 2em;
+    }
   }
 </style>
 
 <div class="conference-container">
   <h2 class="conference-heading">Conference Presentations</h2>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”</span>
-    <p class="presentation-details">
-      The Econometrics Society: Australasian Meeting, December 09–14, 2024<br>
-      Monash University, Caulfield, Melbourne, Australia
-    </p>
-  </div>
+  <div class="conference-grid">
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
+      </span>
+      <p class="presentation-details">
+        The Econometrics Society: Australasian Meeting, December 09–14, 2024<br>
+        Monash University, Caulfield, Melbourne, Australia
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”</span>
-    <p class="presentation-details">
-      Australian Conference of Economists, July 10–12, 2024<br>
-      Adelaide University, South Australia, Australia
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
+      </span>
+      <p class="presentation-details">
+        Australian Conference of Economists, July 10–12, 2024<br>
+        Adelaide University, South Australia, Australia
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”</span>
-    <p class="presentation-details">
-      North American Summer Meeting, June 13–16, 2024<br>
-      Vanderbilt University, Nashville, Tennessee, United States
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
+      </span>
+      <p class="presentation-details">
+        North American Summer Meeting, June 13–16, 2024<br>
+        Vanderbilt University, Nashville, Tennessee, United States
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Unseen Costs of Efficiency: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”</span>
-    <p class="presentation-details">
-      Conference on Empirical Legal Studies (CELS), June 5–7, 2024<br>
-      Federal University of São Paulo, Quitaúna Campus, São Paulo, Brazil
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Unseen Costs of Efficiency: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
+      </span>
+      <p class="presentation-details">
+        Conference on Empirical Legal Studies (CELS), June 5–7, 2024<br>
+        Federal University of São Paulo, Quitaúna Campus, São Paulo, Brazil
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Capital-Labour Substitution and Mis-allocation”</span>
-    <p class="presentation-details">
-      16th RGS Doctoral Conference in Economics, March 28–29, 2023<br>
-      Ruhr-University, Bochum, Germany
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Capital-Labour Substitution and Mis-allocation”
+      </span>
+      <p class="presentation-details">
+        16th RGS Doctoral Conference in Economics, March 28–29, 2023<br>
+        Ruhr-University, Bochum, Germany
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“An Empirical Inquiry into the Role of Internet Connectivity on Financial Connectivity”</span>
-    <p class="presentation-details">
-      Financial Economics Meeting: Post-Crises Challenge, FEM 2019, December 21–22, 2019<br>
-      Hammet, Tunisia <em>(Best Award Paper)</em>
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “An Empirical Inquiry into the Role of Internet Connectivity on Financial Connectivity”
+      </span>
+      <p class="presentation-details">
+        Financial Economics Meeting: Post-Crises Challenge, FEM 2019, December 21–22, 2019<br>
+        Hammet, Tunisia <em>(Best Award Paper)</em>
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Role of Banking Accessibility on Economic Growth; A Comparative Study of Developed and Developing Countries”</span>
-    <p class="presentation-details">
-      PSAK International Conference on Science and Technology, August 26, 2018<br>
-      Seoul, Republic of Korea
-    </p>
-  </div>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Role of Banking Accessibility on Economic Growth; A Comparative Study of Developed and Developing Countries”
+      </span>
+      <p class="presentation-details">
+        PSAK International Conference on Science and Technology, August 26, 2018<br>
+        Seoul, Republic of Korea
+      </p>
+    </div>
 
-  <div class="conference-card">
-    <span class="presentation-title">“Role of Banking Accessibility on Economic Growth; A Cross Country Evidence”</span>
-    <p class="presentation-details">
-      Annual Banking Conference (ABC), Bangladesh Institute of Bank Management, August 26, 2018<br>
-      Dhaka, Bangladesh
-    </p>
+    <div class="conference-card">
+      <span class="presentation-title">
+        “Role of Banking Accessibility on Economic Growth; A Cross Country Evidence”
+      </span>
+      <p class="presentation-details">
+        Annual Banking Conference (ABC), Bangladesh Institute of Bank Management, August 26, 2018<br>
+        Dhaka, Bangladesh
+      </p>
+    </div>
   </div>
 </div>
