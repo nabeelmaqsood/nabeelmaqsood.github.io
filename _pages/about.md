@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: " "
 author_profile: true
 redirect_from: 
   - /about/
@@ -61,16 +61,23 @@ redirect_from:
   }
   ul.custom-bullets li {
     position: relative;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
     margin-bottom: 0.75rem;
     font-size: 1.125rem;
   }
   ul.custom-bullets li::before {
-    content: "–";
     position: absolute;
     left: 0;
-    color: #007aff;
-    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  ul.custom-bullets li.bullet-judiciary::before {
+    content: "⚖️";
+  }
+  ul.custom-bullets li.bullet-policy::before {
+    content: "📈";
+  }
+  ul.custom-bullets li.bullet-structural::before {
+    content: "📊";
   }
   /* Education Section */
   .education {
@@ -88,7 +95,7 @@ redirect_from:
   /* Contact Form */
   .contact-form {
     background: #fff;
-    padding: 1.5rem; /* Reduced padding for a more compact form */
+    padding: 1.25rem; /* Reduced padding for a more compact form */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.07);
     margin-top: 2rem;
@@ -175,18 +182,14 @@ redirect_from:
   </p>
   
   <p>
-    My research focuses on three areas:
+    My Doctoral research focuses on three areas:
   </p>
   
   <ul class="custom-bullets">
-    <li><strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.</li>
-    <li><strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.</li>
-    <li><strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.</li>
+    <li class="bullet-judiciary"><strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.</li>
+    <li class="bullet-policy"><strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.</li>
+    <li class="bullet-structural"><strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.</li>
   </ul>
-  
-  <p>
-    I also examine financial intermediation, focusing on emerging technologies like Peer-to-Peer lending and their role alongside traditional banking.
-  </p>
   
   <!-- Education -->
   <h2>Education</h2>
