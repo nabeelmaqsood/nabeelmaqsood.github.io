@@ -8,12 +8,14 @@ redirect_from:
 ---
 
 <style>
+  /* Global Styles */
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
   }
   .container {
     width: 90%;
@@ -23,12 +25,12 @@ redirect_from:
   }
   h1, h2 {
     font-weight: 700;
-    color: #333;
+    color: #222;
+    margin-bottom: 0.5em;
   }
   h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-bottom: 0.5em;
   }
   .job-market {
     text-align: center;
@@ -38,17 +40,18 @@ redirect_from:
   }
   p {
     text-align: justify;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
   }
   ul {
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
+    padding-left: 1.5em;
   }
   li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.6em;
   }
   /* Education */
   .education {
-    margin-top: 3em;
+    margin-top: 2em;
   }
   .education-item {
     margin-bottom: 1.5em;
@@ -62,9 +65,9 @@ redirect_from:
     width: 100%;
     background: #fff;
     padding: 2em;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin-top: 3em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-top: 2em;
   }
   .contact-form label {
     display: block;
@@ -75,19 +78,19 @@ redirect_from:
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0.5em;
+    padding: 0.6em;
     margin-bottom: 1em;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 1em;
   }
   .contact-form button {
     padding: 0.7em 2em;
     font-size: 1em;
-    color: white;
+    color: #fff;
     background-color: #007aff;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -102,6 +105,7 @@ redirect_from:
     font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.8;
     font-weight: 700;
+    text-align: center;
   }
   .contact-info strong {
     font-weight: 600;
@@ -109,35 +113,31 @@ redirect_from:
 </style>
 
 <div class="container">
+  <!-- Welcome Section -->
   <h1>Welcome to my website.</h1>
   <p class="job-market">I am on the 2024/25 job market.</p>
   
+  <!-- About & Research -->
   <p>
-    I am an applied macroeconomist specializing in Development Economics, Labour Economics, and the Economics of Institutions, particularly legal and judicial systems. I am experienced in employing large datasets for developing causal inference.
+    I am an applied macroeconomist specializing in Development Economics, Labour Economics, and the Economics of Institutions, particularly legal and judicial systems. I use large datasets for developing causal inference.
   </p>
   
   <p>
     My research focuses on three areas:
   </p>
   
-  <ul style="margin-left: 2em;">
-    <li>
-      <strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.
-    </li>
-    <li>
-      <strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.
-    </li>
-    <li>
-      <strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.
-    </li>
+  <ul>
+    <li><strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.</li>
+    <li><strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.</li>
+    <li><strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.</li>
   </ul>
   
   <p>
-    In my other research, I also examine financial intermediation, focusing on emerging technologies like Peer-to-Peer lending and their role alongside traditional banking.
+    I also examine financial intermediation, focusing on emerging technologies like Peer-to-Peer lending and their role alongside traditional banking.
   </p>
   
+  <!-- Education -->
   <h2>Education</h2>
-  
   <div class="education">
     <div class="education-item">
       &#127891; PhD in Economics, 2024<br>
@@ -153,8 +153,8 @@ redirect_from:
     </div>
   </div>
   
-  <h2 style="margin-top: 4em;">Contact</h2>
-  
+  <!-- Contact -->
+  <h2>Contact</h2>
   <form action="https://formspree.io/f/mpwaadvz" method="POST" class="contact-form">
     <label for="name">Your Name</label>
     <input type="text" name="name" id="name">
