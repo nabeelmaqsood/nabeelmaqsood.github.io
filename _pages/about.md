@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
   /* Global Styles */
   body {
@@ -212,13 +214,16 @@ redirect_from:
   <!-- Contact -->
   <div class="contact-section">
     <h2>Contact</h2>
-    <form action="https://formspree.io/f/mpwaadvz" method="POST" class="contact-form">
+    <form action="https://formsubmit.co/el/kazeho" method="POST" class="contact-form">
       <label for="name">Your Name</label>
       <input type="text" name="name" id="name">
+      
       <label for="email">Your Email</label>
       <input type="email" name="email" id="email">
+      
       <label for="message">Your Message</label>
       <textarea name="message" id="message"></textarea>
+      
       <button type="submit">Send</button>
     </form>
     
