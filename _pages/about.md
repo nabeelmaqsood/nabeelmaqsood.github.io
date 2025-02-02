@@ -2,7 +2,7 @@
 permalink: /
 title: " "
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -43,13 +43,13 @@ redirect_from:
   }
   /* Job Market Tagline */
   .job-market {
-  text-align: center;
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
-  color: #2C3E50; /* Dark navy for an academic feel */
-  font-weight: bold;
-  letter-spacing: 0.05rem;
-}
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    color: #2C3E50;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+  }
   /* Paragraphs */
   p {
     font-size: 1.125rem;
@@ -95,63 +95,59 @@ redirect_from:
     color: #666;
     margin-top: 0.3rem;
   }
-  /* Refined, Compact Contact Form */
+  /* Integrated Contact Section */
+  .contact-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #ddd;
+  }
   .contact-form {
-    background: #fff;
-    padding: 1rem;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    margin: 2rem auto;
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
   }
   .contact-form label {
     font-size: 1rem;
+    color: #333;
     margin-bottom: 0.25rem;
     display: block;
-    color: #333;
   }
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0.6rem;
-    margin-bottom: 0.75rem;
-    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+    background-color: #fff;
   }
   .contact-form textarea {
     resize: vertical;
-    min-height: 120px;
+    min-height: 100px;
   }
   .contact-form button {
     background-color: #007aff;
     color: #fff;
     border: none;
-    padding: 0.6rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1rem;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    margin: 0.5rem auto 0;
+    align-self: flex-start;
   }
   .contact-form button:hover {
     background-color: #005bb5;
   }
-  /* Contact Info */
   .contact-info {
     text-align: center;
-    font-size: 1.125rem;
-    margin-top: 1.5rem;
-    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    line-height: 1.8;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #333;
   }
   .contact-info strong {
-    font-weight: 600;
+    font-weight: bold;
   }
   /* Responsive Adjustments */
   @media (max-width: 600px) {
@@ -163,9 +159,6 @@ redirect_from:
     }
     p, li, .job-market, .contact-info {
       font-size: 1rem;
-    }
-    .contact-form {
-      padding: 0.75rem;
     }
     .contact-form input,
     .contact-form textarea {
@@ -203,101 +196,22 @@ redirect_from:
   <h2>Education</h2>
   <div class="education">
     <div class="education-item">
-      &#127891; PhD in Economics, 2024<br>
+      🎓 PhD in Economics, 2024<br>
       <sub>Deakin University, Melbourne, Australia</sub>
     </div>
     <div class="education-item">
-      &#127891; MS Economics & Statistics, 2020<br>
+      🎓 MS Economics & Statistics, 2020<br>
       <sub>Korea University, Seoul, Rep. of South Korea</sub>
     </div>
     <div class="education-item">
-      &#127891; BS Economics, 2015<br>
+      🎓 BS Economics, 2015<br>
       <sub>Quaid i Azam University, Islamabad, Pakistan</sub>
     </div>
   </div>
   
- <style>
-  /* Contact Section Styling */
-  .contact-section {
-    background: #fff;
-    padding: 1.5rem;
-    border: 1px solid #eaeaea;
-    border-radius: 6px;
-    margin-top: 2rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-  }
-  .contact-form label {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 0.25rem;
-    display: block;
-  }
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    background-color: #fff;
-  }
-  .contact-form textarea {
-    resize: vertical;
-    min-height: 120px;
-  }
-  .contact-form button {
-    background-color: #007aff;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    align-self: flex-start;
-  }
-  .contact-form button:hover {
-    background-color: #005bb5;
-  }
-  .contact-info {
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: #333;
-  }
-  .contact-info strong {
-    font-weight: bold;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 600px) {
-    .contact-section {
-      padding: 1rem;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      font-size: 1rem;
-      padding: 0.5rem;
-    }
-    .contact-form button {
-      font-size: 1rem;
-      padding: 0.5rem 1.5rem;
-    }
-  }
-</style>
-
-<div class="container">
-  <h2>Contact</h2>
+  <!-- Contact -->
   <div class="contact-section">
+    <h2>Contact</h2>
     <form action="https://formspree.io/f/mpwaadvz" method="POST" class="contact-form">
       <label for="name">Your Name</label>
       <input type="text" name="name" id="name">
