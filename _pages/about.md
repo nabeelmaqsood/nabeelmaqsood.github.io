@@ -46,9 +46,10 @@ redirect_from:
   text-align: center;
   font-size: 1.125rem;
   margin-bottom: 2rem;
-  color: #2C3E50;
+  color: #2C3E50; /* Dark navy for an academic feel */
+  font-weight: bold;
+  letter-spacing: 0.05rem;
 }
-
   /* Paragraphs */
   p {
     font-size: 1.125rem;
