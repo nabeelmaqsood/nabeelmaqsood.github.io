@@ -6,14 +6,16 @@ author_profile: true
 ---
 
 <style>
-  /* Global container */
+  /* Global container styling */
   .conference-container {
     max-width: 900px;
     margin: 0 auto;
     padding: 2em 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
   }
 
-  /* Page heading */
+  /* Main heading styling */
   .conference-heading {
     text-align: center;
     font-size: 2.5em;
@@ -22,14 +24,14 @@ author_profile: true
     letter-spacing: 0.05em;
   }
 
-  /* Grid for cards */
+  /* Grid layout for conference cards */
   .conference-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5em;
   }
 
-  /* Card styling */
+  /* Card styling for each conference */
   .conference-card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -38,34 +40,45 @@ author_profile: true
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
-
+  
   .conference-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 
-  /* Title inside the card */
+  /* Title styling inside each card */
   .presentation-title {
     display: block;
     font-weight: 600;
     font-size: 1.15em;
     margin-bottom: 0.75em;
-    color: #333;
+    color: #222;
   }
 
-  /* Presentation details */
+  /* Styling for presentation details */
   .presentation-details {
     font-size: 0.95em;
     line-height: 1.5;
     color: #555;
   }
 
-  /* Emphasize awards or extra notes */
+  /* Link styling for embedded conference links */
+  .presentation-details a {
+    color: #0066cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0066cc;
+  }
+  
+  .presentation-details a:hover {
+    text-decoration: underline;
+  }
+
+  /* Emphasis for awards or notes */
   .presentation-details em {
     color: #b00;
   }
 
-  /* Responsive text adjustments */
+  /* Responsive heading size for smaller screens */
   @media (max-width: 600px) {
     .conference-heading {
       font-size: 2em;
@@ -82,7 +95,9 @@ author_profile: true
         “Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
       </span>
       <p class="presentation-details">
-        The Econometrics Society: Australasian Meeting, December 09–14, 2024<br>
+        <a href="https://editorialexpress.com/conference/ESAM2024/program/ESAM2024.html" target="_blank">
+          The Econometrics Society: Australasian Meeting
+        </a>, December 09–14, 2024<br>
         Monash University, Caulfield, Melbourne, Australia
       </p>
     </div>
@@ -92,7 +107,9 @@ author_profile: true
         “Efficiency without Efficacy: Do Efficient Courts Hinder Formal Employment Growth in Indian Manufacturing Sector?”
       </span>
       <p class="presentation-details">
-        Australian Conference of Economists, July 10–12, 2024<br>
+        <a href="https://editorialexpress.com/conference/ace24/program/ace24.html" target="_blank">
+          ACE: Australian Conference of Economists
+        </a>, July 10–12, 2024<br>
         Adelaide University, South Australia, Australia
       </p>
     </div>
