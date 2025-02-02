@@ -18,6 +18,7 @@ redirect_from:
     line-height: 1.65;
   }
   .container {
+    width: 90%;
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem 1rem;
@@ -42,11 +43,12 @@ redirect_from:
   }
   /* Job Market Tagline */
   .job-market {
-    text-align: center;
-    font-size: 1.125rem;
-    margin-bottom: 2rem;
-    color: #007aff;
-  }
+  text-align: center;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: #2C3E50;
+}
+
   /* Paragraphs */
   p {
     font-size: 1.125rem;
@@ -92,42 +94,48 @@ redirect_from:
     color: #666;
     margin-top: 0.3rem;
   }
-  /* Contact Form */
+  /* Refined, Compact Contact Form */
   .contact-form {
     background: #fff;
-    padding: 1.25rem; /* Reduced padding for a more compact form */
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
-    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin: 2rem auto;
+    max-width: 400px;
   }
   .contact-form label {
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
     display: block;
     color: #333;
   }
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
+    padding: 0.6rem;
+    margin-bottom: 0.75rem;
     border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 1.125rem;
+    border-radius: 4px;
+    font-size: 1rem;
   }
   .contact-form textarea {
     resize: vertical;
-    min-height: 150px;
+    min-height: 120px;
   }
   .contact-form button {
     background-color: #007aff;
     color: #fff;
     border: none;
-    padding: 0.75rem 2rem;
-    font-size: 1.125rem;
-    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0.5rem auto 0;
   }
   .contact-form button:hover {
     background-color: #005bb5;
@@ -144,7 +152,6 @@ redirect_from:
   .contact-info strong {
     font-weight: 600;
   }
-  
   /* Responsive Adjustments */
   @media (max-width: 600px) {
     h1 {
@@ -157,7 +164,7 @@ redirect_from:
       font-size: 1rem;
     }
     .contact-form {
-      padding: 1rem;
+      padding: 0.75rem;
     }
     .contact-form input,
     .contact-form textarea {
