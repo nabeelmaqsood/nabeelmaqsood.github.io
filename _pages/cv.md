@@ -38,9 +38,9 @@ redirect_from:
   </p>
 
   <p>
-    About my teaching philosophy and approach, see
+    About my teaching philosophy and approach, download my
     <a href="/assets/My Teaching Statement.pdf" target="_blank">
-     my teaching statement here
+    teaching statement here
     </a>.
   </p>
 </div>
