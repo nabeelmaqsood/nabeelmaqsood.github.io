@@ -216,66 +216,105 @@ redirect_from:
     </div>
   </div>
   
+ <style>
   /* Contact Section Styling */
-.contact-section {
-  background: #fff;
-  padding: 1.5rem;
-  border: 1px solid #eaeaea;
-  border-radius: 6px;
-  margin-top: 2rem;
-}
+  .contact-section {
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  .contact-form button {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+  }
+  .contact-form button:hover {
+    background-color: #005bb5;
+  }
+  .contact-info {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #333;
+  }
+  .contact-info strong {
+    font-weight: bold;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .contact-section {
+      padding: 1rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    .contact-form button {
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+</style>
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.contact-form label {
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 0.25rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.contact-form textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-.contact-form button {
-  background-color: #007aff;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  align-self: flex-start;
-}
-
-.contact-form button:hover {
-  background-color: #005bb5;
-}
-
-.contact-info {
-  text-align: center;
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: #333;
-}
-
-.contact-info strong {
-  font-weight: bold;
-}
+<div class="container">
+  <h2>Contact</h2>
+  <div class="contact-section">
+    <form action="https://formspree.io/f/mpwaadvz" method="POST" class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" name="name" id="name">
+      
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email">
+      
+      <label for="message">Your Message</label>
+      <textarea name="message" id="message"></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+    
+    <p class="contact-info">
+      <strong>📞</strong> <span>61452420994</span><br>
+      <strong>📍</strong> <span>28/60 Elgar Rd, Burwood, VIC 3125</span><br>
+      <strong>🏢</strong> <span>EA Building, Level 2, EA 2.40</span>
+    </p>
+  </div>
+</div>
