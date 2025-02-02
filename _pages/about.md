@@ -11,12 +11,29 @@ I am on the 2024/25 job market.
 ---
 
 <p style="text-align: justify;">
-I am an Applied Macroeconomist, specializing in Development Economics, Labour Economics, and the economics of institutions, particularly legal and judicial systems. My research relies heavily on alternative (big) datasets for causal inference. My current research focuses on three main areas. First, I investigate the role of frontline judiciary, such as district or county courts, in economic development process. Second, I analyze the impact of major economic policies, using natural experiments, on the supply side of the economy, specifically firms. Lastly, I study the structural transformation process, assessing the impact of various production technologies on estimating the misallocation of resources.
+I am an applied macroeconomist specializing in Development Economics, Labour Economics, and the Economics of Institutions, particularly legal and judicial systems. I am experienced in employing large datasets for developing causal inference.
 </p>
 
 <p style="text-align: justify;">
-In addition, my other research focuses on Financial Intermediation, particularly the role of emerging financial technologies such as Peer-to-Peer lending, and their interaction with the traditional banking system.
+My research focuses on three areas:
 </p>
+
+<ul style="text-align: justify; margin-left: 2em;">
+  <li>
+    <strong>Frontline Judiciary:</strong> Analyzing how local courts affect labour market outcomes and economic development.
+  </li>
+  <li>
+    <strong>Economic Policy Impacts:</strong> Assessing the effects of Demonetization on firms and informality.
+  </li>
+  <li>
+    <strong>Structural Transformation:</strong> Evaluating production technologies and resource misallocation.
+  </li>
+</ul>
+
+<p style="text-align: justify;">
+In my other research, I also examine financial intermediation, focusing on emerging technologies like Peer-to-Peer lending and their role alongside traditional banking.
+</p>
+
 
 
 
