@@ -12,114 +12,155 @@ redirect_from:
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
-    line-height: 1.6;
+    background-color: #fafafa;
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    line-height: 1.65;
   }
   .container {
-    width: 90%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 2rem 1rem;
   }
+  /* Headers */
   h1, h2 {
     font-weight: 700;
     color: #222;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
   }
   h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 1rem;
   }
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3rem;
+  }
+  /* Job Market Tagline */
   .job-market {
     text-align: center;
-    font-size: 1.1em;
-    margin-bottom: 2em;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
     color: #007aff;
   }
+  /* Paragraphs & Lists */
   p {
+    font-size: 1.125rem;
     text-align: justify;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.5rem;
   }
   ul {
-    margin-bottom: 1.2em;
-    padding-left: 1.5em;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   li {
-    margin-bottom: 0.6em;
+    margin-bottom: 0.75rem;
+    font-size: 1.125rem;
   }
-  /* Education */
+  /* Education Section */
   .education {
-    margin-top: 2em;
+    margin-top: 2rem;
   }
   .education-item {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
   }
   .education-item sub {
-    font-size: 0.9em;
+    display: block;
+    font-size: 0.95rem;
     color: #666;
+    margin-top: 0.3rem;
   }
-  /* Contact form */
+  /* Contact Form */
   .contact-form {
-    width: 100%;
     background: #fff;
-    padding: 2em;
+    padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    margin-top: 2em;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    margin-top: 2rem;
   }
   .contact-form label {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
     display: block;
-    margin-bottom: 0.5em;
-    font-size: 1em;
     color: #333;
   }
   .contact-form input,
   .contact-form textarea {
     width: 100%;
-    padding: 0.6em;
-    margin-bottom: 1em;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
     border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1em;
+    border-radius: 6px;
+    font-size: 1.125rem;
+  }
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
   }
   .contact-form button {
-    padding: 0.7em 2em;
-    font-size: 1em;
-    color: #fff;
     background-color: #007aff;
+    color: #fff;
     border: none;
-    border-radius: 4px;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s;
   }
   .contact-form button:hover {
     background-color: #005bb5;
   }
-  /* Contact info */
+  /* Contact Info */
   .contact-info {
-    font-size: 1em;
-    color: #333;
-    margin-top: 1.5em;
-    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.8;
-    font-weight: 700;
     text-align: center;
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
   }
   .contact-info strong {
     font-weight: 600;
   }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    p, li, .job-market, .contact-info {
+      font-size: 1rem;
+    }
+    .contact-form {
+      padding: 1.5rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+    .contact-form button {
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
 </style>
 
 <div class="container">
-  <!-- Welcome Section -->
+  <!-- Header Section -->
   <h1>Welcome to my website.</h1>
   <p class="job-market">I am on the 2024/25 job market.</p>
   
   <!-- About & Research -->
   <p>
-    I am an applied macroeconomist specializing in Development Economics, Labour Economics, and the Economics of Institutions, particularly legal and judicial systems. I use large datasets for developing causal inference.
+    I am an applied macroeconomist specializing in Development Economics, Labour Economics, and the Economics of Institutions—particularly legal and judicial systems. I employ large datasets for developing causal inference.
   </p>
   
   <p>
@@ -169,8 +210,8 @@ redirect_from:
   </form>
   
   <p class="contact-info">
-    <strong>📞</strong> <span style="margin-left: 0.5em;">61452420994</span><br>
-    <strong>📍</strong> <span style="margin-left: 0.5em;">28/60 Elgar Rd, Burwood, VIC 3125</span><br>
-    <strong>🏢</strong> <span style="margin-left: 0.5em;">EA Building, Level 2, EA 2.40</span>
+    <strong>📞</strong> <span style="margin-left: 0.5rem;">61452420994</span><br>
+    <strong>📍</strong> <span style="margin-left: 0.5rem;">28/60 Elgar Rd, Burwood, VIC 3125</span><br>
+    <strong>🏢</strong> <span style="margin-left: 0.5rem;">EA Building, Level 2, EA 2.40</span>
   </p>
 </div>
