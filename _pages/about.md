@@ -215,13 +215,10 @@ redirect_from:
     <form action="https://formspree.io/f/mpwaadvz" method="POST" class="contact-form">
       <label for="name">Your Name</label>
       <input type="text" name="name" id="name">
-      
       <label for="email">Your Email</label>
       <input type="email" name="email" id="email">
-      
       <label for="message">Your Message</label>
       <textarea name="message" id="message"></textarea>
-      
       <button type="submit">Send</button>
     </form>
     
