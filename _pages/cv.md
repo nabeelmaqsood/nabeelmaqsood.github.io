@@ -31,16 +31,16 @@ redirect_from:
 
 <div class="cv-container">
   <p>
-    A bit more about my academic and professional journey, 
+    A bit more about my academic and professional journey, you can download my
     <a href="/assets/Nabeel_Maqsood_cv_Feb_2025.pdf" target="_blank">
-      you can download my CV here
+      CV here
     </a>.
   </p>
 
   <p>
-    About my teaching philosophy and approach, 
+    About my teaching philosophy and approach, see
     <a href="/assets/My Teaching Statement.pdf" target="_blank">
-      see my teaching statement here
+     my teaching statement here
     </a>.
   </p>
 </div>
