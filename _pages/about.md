@@ -177,7 +177,6 @@ redirect_from:
 <div class="container">
   <!-- Header Section -->
   <h1>Welcome to my website.</h1>
-  <p class="job-market">I am on the 2024/25 job market.</p>
   
   <!-- About & Research -->
   <p>
