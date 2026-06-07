@@ -176,7 +176,7 @@ redirect_from:
 
 <div class="container">
   <!-- Header Section -->
-  <h1>Welcome to my website.</h1>
+  <h1>Welcome!</h1>
   
   <!-- About & Research -->
   <p>
@@ -197,7 +197,7 @@ redirect_from:
   <h2>Education</h2>
   <div class="education">
     <div class="education-item">
-      🎓 PhD in Economics, 2024<br>
+      🎓 PhD in Economics, 2025<br>
       <sub>Deakin University, Melbourne, Australia</sub>
     </div>
     <div class="education-item">
