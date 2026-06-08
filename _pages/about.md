@@ -209,15 +209,3 @@ redirect_from:
       <sub>Quaid i Azam University, Islamabad, Pakistan</sub>
     </div>
   </div>
-  
-
-<!-- Contact -->
-<div class="contact-section">
-  <h2>Contact</h2>
-
-  <p class="contact-info">
-    <strong>✉️</strong>
-    <a href="mailto:nabeelmaqsood.edu@gmail.com">nabeelmaqsood.edu@gmail.com</a>
-  </p>
-</div>
-
