@@ -210,7 +210,7 @@ redirect_from:
     </div>
   </div>
   
- ```html
+
 <!-- Contact -->
 <div class="contact-section">
   <h2>Contact</h2>
@@ -220,4 +220,4 @@ redirect_from:
     <a href="mailto:nabeelmaqsood.edu@gmail.com">nabeelmaqsood.edu@gmail.com</a>
   </p>
 </div>
-```
+
