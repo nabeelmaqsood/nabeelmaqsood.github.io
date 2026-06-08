@@ -227,9 +227,7 @@ redirect_from:
     </form>
     
     <p class="contact-info">
-      <strong>✉️</strong> <span>nabeelmaqsood dot edu at gmail dot com</span><br>
-      <strong>📍</strong> <span>28/60 Elgar Rd, Burwood, VIC 3125</span><br>
-      <strong>🏢</strong> <span>EA Building, Level 2, EA 2.40</span>
+      <strong>✉️</strong> <span>nabeelmaqsood dot edu at gmail dot com</span>
     </p>
   </div>
 </div>
