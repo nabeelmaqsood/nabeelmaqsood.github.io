@@ -210,24 +210,14 @@ redirect_from:
     </div>
   </div>
   
-  <!-- Contact -->
-  <div class="contact-section">
-    <h2>Contact</h2>
-    <form action="https://formsubmit.co/el/kazeho" method="POST" class="contact-form">
-      <label for="name">Your Name</label>
-      <input type="text" name="name" id="name">
-      
-      <label for="email">Your Email</label>
-      <input type="email" name="email" id="email">
-      
-      <label for="message">Your Message</label>
-      <textarea name="message" id="message"></textarea>
-      
-      <button type="submit">Send</button>
-    </form>
-    
-    <p class="contact-info">
-      <strong>✉️</strong> <span>nabeelmaqsood dot edu at gmail dot com</span>
-    </p>
-  </div>
+ ```html
+<!-- Contact -->
+<div class="contact-section">
+  <h2>Contact</h2>
+
+  <p class="contact-info">
+    <strong>✉️</strong>
+    <a href="mailto:nabeelmaqsood.edu@gmail.com">nabeelmaqsood.edu@gmail.com</a>
+  </p>
 </div>
+```
